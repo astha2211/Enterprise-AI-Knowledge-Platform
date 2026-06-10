@@ -1,0 +1,57 @@
+id,title,content,department
+1,Annual Leave Policy,Employees are entitled to 24 annual paid leaves per calendar year.,HR
+2,Sick Leave Policy,Employees may take up to 12 sick leaves annually with medical documentation when required.,HR
+3,Maternity Leave Policy,Eligible employees receive maternity leave benefits according to company regulations.,HR
+4,Paternity Leave Policy,Eligible employees are granted paternity leave after childbirth.,HR
+5,Remote Work Guidelines,Employees may work remotely up to three days per week.,HR
+6,Hybrid Work Policy,Teams must maintain at least two in-office collaboration days weekly.,HR
+7,Employee Onboarding Process,New employees must complete onboarding within seven days.,HR
+8,Performance Review Cycle,Performance reviews are conducted twice annually.,HR
+9,Learning and Development Policy,Employees receive annual training budgets for professional development.,HR
+10,Code of Conduct,All employees must comply with workplace ethics and conduct standards.,HR
+
+11,Cloud Migration Strategy,Legacy workloads are migrated to AWS cloud infrastructure.,IT
+12,Data Lake Architecture,Enterprise data is organized using Bronze Silver and Gold layers.,IT
+13,API Development Standards,REST APIs must comply with OpenAPI specifications.,IT
+14,Database Backup Policy,Production databases are backed up daily.,IT
+15,Disaster Recovery Plan,Critical systems must be recoverable within four hours.,IT
+16,Server Maintenance Schedule,Servers undergo monthly maintenance and patching.,IT
+17,Software Release Process,Releases follow CI CD pipelines with automated testing.,IT
+18,Network Monitoring Policy,Network traffic is monitored continuously for anomalies.,IT
+19,Microservices Architecture,Applications are deployed as containerized microservices.,IT
+20,Data Warehouse Guidelines,Analytics datasets are stored in centralized warehouses.,IT
+
+21,Cybersecurity Awareness Training,Employees complete security awareness training every six months.,Security
+22,Password Management Policy,Passwords must contain at least twelve characters.,Security
+23,Multi Factor Authentication Policy,All enterprise accounts require MFA.,Security
+24,Incident Response Procedure,Security incidents must be reported within one hour.,Security
+25,Access Control Standards,Role based access control is enforced across systems.,Security
+26,Data Encryption Policy,Sensitive data must be encrypted at rest and in transit.,Security
+27,Vendor Security Assessment,Third-party vendors undergo annual security reviews.,Security
+28,Phishing Prevention Program,Employees participate in phishing simulation exercises.,Security
+29,Endpoint Protection Policy,All devices require approved endpoint security software.,Security
+30,Security Audit Guidelines,Quarterly audits evaluate compliance with security controls.,Security
+
+31,Budget Planning Process,Departments submit quarterly budget forecasts.,Finance
+32,Expense Reimbursement Policy,Business expenses are reimbursed upon approval.,Finance
+33,Financial Reporting Standards,Monthly reports are reviewed by senior leadership.,Finance
+34,Capital Expenditure Policy,Major purchases require executive approval.,Finance
+35,Procurement Workflow,Purchases above threshold values require multi-level approval.,Finance
+
+36,Customer Support SLA,Critical issues require responses within one hour.,Support
+37,Ticket Escalation Process,Unresolved tickets escalate after defined thresholds.,Support
+38,Knowledge Base Maintenance,Documentation is reviewed quarterly.,Support
+39,Customer Feedback Program,Customer feedback is analyzed monthly.,Support
+40,Support Analytics Dashboard,Support KPIs are tracked in real time.,Support
+
+41,GDPR Compliance Guidelines,Personal data processing follows GDPR regulations.,Compliance
+42,Data Retention Policy,Enterprise records are retained according to legal requirements.,Compliance
+43,Audit Preparation Checklist,Departments maintain audit-ready documentation.,Compliance
+44,Regulatory Reporting Standards,Compliance reports are submitted quarterly.,Compliance
+45,Risk Assessment Framework,Enterprise risks are reviewed semi-annually.,Compliance
+
+46,RAG System Architecture,The AI platform uses retrieval augmented generation for enterprise search.,AI
+47,Vector Database Operations,FAISS indexes are refreshed weekly.,AI
+48,ML Model Deployment Process,Models are deployed through MLflow-managed pipelines.,AI
+49,Model Monitoring Framework,Production models are monitored for drift and latency.,AI
+50,Enterprise Analytics Platform,Business dashboards provide real-time operational insights.,AI
