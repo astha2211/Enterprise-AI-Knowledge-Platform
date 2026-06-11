@@ -1,6 +1,4 @@
 <div align="center">
-  
-  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop" alt="Enterprise AI Banner" width="100%" style="border-radius:10px;">
 
   <h1>🚀 Enterprise AI Knowledge Platform</h1>
   <p><b>An intelligent, scalable search and analytics solution powered by RAG, Apache Spark, and Local LLMs.</b></p>
@@ -53,14 +51,6 @@ By utilizing a **Bronze-Silver-Gold architecture** alongside a **Retrieval-Augme
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=flat&logo=Plotly&logoColor=white)
 
 ---
-
-## 🏗️ Architecture
-
-*(Tip: Replace the placeholder image below with a flowchart diagram of your architecture if you have one!)*
-
-<div align="center">
-  <img src="images/architecture.png" alt="Architecture Diagram Placeholder" width="80%" style="border-radius:10px;">
-</div>
 
 ### System Flow
 ```mermaid
