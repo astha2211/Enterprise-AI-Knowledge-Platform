@@ -59,7 +59,7 @@ By utilizing a **Bronze-Silver-Gold architecture** alongside a **Retrieval-Augme
 *(Tip: Replace the placeholder image below with a flowchart diagram of your architecture if you have one!)*
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop" alt="Architecture Diagram Placeholder" width="80%" style="border-radius:10px;">
+  <img src="images/architecture.png" alt="Architecture Diagram Placeholder" width="80%" style="border-radius:10px;">
 </div>
 
 ### System Flow
