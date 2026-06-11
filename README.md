@@ -1,384 +1,74 @@
-\# Enterprise AI Knowledge Platform
+<div align="center">
+  
+  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop" alt="Enterprise AI Banner" width="100%" style="border-radius:10px;">
 
+  <h1>🚀 Enterprise AI Knowledge Platform</h1>
+  <p><b>An intelligent, scalable search and analytics solution powered by RAG, Apache Spark, and Local LLMs.</b></p>
 
+  <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark"></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"></a>
+  <a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/FAISS-Vector_Search-000000?style=for-the-badge&logo=facebook&logoColor=white" alt="FAISS"></a>
+  <img src="https://img.shields.io/badge/Phi--3-Local_LLM-0078D4?style=for-the-badge" alt="Phi-3">
 
-\## Overview
+</div>
 
+<br/>
 
+## 📖 Overview
 
-Enterprise AI Knowledge Platform is an AI-powered enterprise search and analytics solution built using Apache Spark, Retrieval-Augmented Generation (RAG), FAISS vector search, and a local Large Language Model (Phi-3 via Ollama).
+The **Enterprise AI Knowledge Platform** is a robust, end-to-end knowledge retrieval and analytics system. It bridges the gap between raw enterprise data and actionable intelligence by combining heavy-duty data engineering pipelines with cutting-edge Artificial Intelligence. 
 
+By utilizing a **Bronze-Silver-Gold architecture** alongside a **Retrieval-Augmented Generation (RAG)** pipeline powered by a local Phi-3 model, this platform ensures fast, secure, and context-aware enterprise search capabilities.
 
+---
 
-The platform enables intelligent enterprise knowledge retrieval by combining data engineering pipelines, semantic search, vector databases, and AI-powered question answering.
+## ✨ Key Features
 
+* **🔍 Enterprise Knowledge Search:** Lightning-fast semantic search across vast document repositories.
+* **🧠 Retrieval-Augmented Generation (RAG):** Contextually accurate AI answers grounded in your specific enterprise data.
+* **⚙️ Apache Spark ETL Pipelines:** Scalable data ingestion and processing.
+* **🏗️ Medallion Architecture:** Structured data flow from Bronze (raw) → Silver (cleaned) → Gold (analytics).
+* **📐 Vector Search:** Powered by Sentence Transformer embeddings and FAISS vector databases.
+* **🔒 Local LLM Inference:** Utilitzing Phi-3 via Ollama for secure, on-premise AI processing.
+* **📊 Interactive Dashboard:** Rich, intuitive analytics and search interface.
 
+---
 
-\---
+## 🛠️ Technology Stack
 
+### Data Engineering
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-F16629.svg?style=flat&logo=Apache-Spark&logoColor=white) 
+![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white)
 
+### Artificial Intelligence & Machine Learning
+![HuggingFace](https://img.shields.io/badge/Sentence%20Transformers-FF9D00.svg?style=flat&logo=Hugging-Face&logoColor=white) 
+![FAISS](https://img.shields.io/badge/FAISS-Vector_Store-black.svg?style=flat) 
+![Phi3](https://img.shields.io/badge/Phi--3-Local_LLM-blue.svg?style=flat) 
+![Ollama](https://img.shields.io/badge/Ollama-Local_Inference-lightgrey.svg?style=flat)
 
-\## Key Features
+### Visualization & UI
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white) 
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=flat&logo=Plotly&logoColor=white)
 
+---
 
+## 🏗️ Architecture
 
-\* Enterprise Knowledge Search
+*(Tip: Replace the placeholder image below with a flowchart diagram of your architecture if you have one!)*
 
-\* Retrieval-Augmented Generation (RAG)
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop" alt="Architecture Diagram Placeholder" width="80%" style="border-radius:10px;">
+</div>
 
-\* Apache Spark ETL Pipelines
-
-\* Bronze → Silver → Gold Architecture
-
-\* Semantic Search using FAISS
-
-\* Sentence Transformer Embeddings
-
-\* Local LLM Inference using Phi-3
-
-\* Interactive Analytics Dashboard
-
-\* Enterprise Architecture Visualization
-
-
-
-\---
-
-
-
-\## Architecture
-
-
-
-```text
-
-Knowledge Base
-
-&#x20;      ↓
-
-Apache Spark
-
-&#x20;      ↓
-
-Bronze Layer
-
-&#x20;      ↓
-
-Silver Layer
-
-&#x20;      ↓
-
-Gold Layer
-
-&#x20;      ↓
-
-Sentence Transformers
-
-&#x20;      ↓
-
-FAISS Vector Database
-
-&#x20;      ↓
-
-Phi-3 Local LLM
-
-&#x20;      ↓
-
-Streamlit Dashboard
-
-```
-
-
-
-\---
-
-
-
-\## Technology Stack
-
-
-
-\### Data Engineering
-
-
-
-\* Apache Spark
-
-\* Pandas
-
-\* Python
-
-
-
-\### Artificial Intelligence
-
-
-
-\* Retrieval-Augmented Generation (RAG)
-
-\* Sentence Transformers
-
-\* FAISS
-
-\* Phi-3
-
-\* Ollama
-
-
-
-\### Visualization
-
-
-
-\* Streamlit
-
-\* Plotly
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
-
-```text
-
-EnterpriseAI/
-
-
-
-├── dashboard/
-
-│   └── app.py
-
-
-
-├── data/
-
-│   ├── bronze/
-
-│   ├── silver/
-
-│   └── gold/
-
-
-
-├── rag/
-
-│   ├── enterprise\_rag.py
-
-│   ├── embedder.py
-
-│   └── vector\_store.py
-
-
-
-├── spark\_jobs/
-
-│   ├── bronze\_ingestion.py
-
-│   ├── silver\_transform.py
-
-│   └── gold\_analytics.py
-
-
-
-├── images/
-
-
-
-├── requirements.txt
-
-├── README.md
-
-└── .gitignore
-
-```
-
-
-
-\---
-
-
-
-\## Data Pipeline
-
-
-
-\### Bronze Layer
-
-
-
-Raw enterprise knowledge base ingestion using Apache Spark.
-
-
-
-\### Silver Layer
-
-
-
-Data cleansing, deduplication, normalization, and transformation.
-
-
-
-\### Gold Layer
-
-
-
-Department-level analytics and business insights generation.
-
-
-
-\---
-
-
-
-\## AI Pipeline
-
-
-
-1\. Enterprise documents are converted into embeddings using Sentence Transformers.
-
-2\. Embeddings are indexed using FAISS Vector Database.
-
-3\. User queries are embedded and matched against enterprise knowledge.
-
-4\. Relevant documents are retrieved.
-
-5\. Phi-3 generates context-aware responses using RAG.
-
-
-
-\---
-
-
-
-\## Dashboard Features
-
-
-
-\### AI Assistant
-
-
-
-\* Natural language querying
-
-\* Context-aware enterprise search
-
-\* Local AI-powered responses
-
-
-
-\### Analytics Dashboard
-
-
-
-\* Department-wise document distribution
-
-\* Knowledge base analytics
-
-\* Interactive visualizations
-
-
-
-\### Platform Overview
-
-
-
-\* Architecture diagram
-
-\* Technology stack
-
-\* System components
-
-
-
-\---
-
-
-
-\## Installation
-
-
-
-```bash
-
-git clone <repository-url>
-
-
-
-cd EnterpriseAI
-
-
-
-python -m venv venv
-
-
-
-venv\\Scripts\\activate
-
-
-
-pip install -r requirements.txt
-
-```
-
-
-
-\---
-
-
-
-\## Run Application
-
-
-
-```bash
-
-streamlit run dashboard/app.py
-
-```
-
-
-
-\---
-
-
-
-\## Future Enhancements
-
-
-
-\* PDF document ingestion
-
-\* Conversational memory
-
-\* Multi-user authentication
-
-\* MLflow experiment tracking
-
-\* Cloud deployment (AWS/Azure)
-
-\* Real-time knowledge synchronization
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-Astha Mehra
-
-
-
-Artificial Intelligence \& Data Science
-
-
-
+### System Flow
+```mermaid
+graph TD
+    A[Knowledge Base] -->|Apache Spark| B(Bronze Layer)
+    B -->|Clean & Transform| C(Silver Layer)
+    C -->|Analytics| D(Gold Layer)
+    C -->|Embeddings| E[Sentence Transformers]
+    E --> F[(FAISS Vector DB)]
+    F -->|Context Retrieval| G{Phi-3 Local LLM}
+    G --> H[Streamlit Dashboard]
